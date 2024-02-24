@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Document</title>
+
+  <style>
+  
+  p {font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+.info {
+  width: 200px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.handle {
+  color: rgb(150, 150, 150);
+  margin-bottom: 5px;
+}
+
+.category {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+}
+
+.follow-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+
+<body>
+
+    <div class="flex-box">
+      <img class="image" src="/Img/cat.jpg" alt="cat">
+      <div class="info">
+        <p class="name">Oliver</p>
+        <p class="handle">the cat</p>
+        <p class="category">popular</p>
+      </div>
+      <div>
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+
+  
+</body>
+</html>

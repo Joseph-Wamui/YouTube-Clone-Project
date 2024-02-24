@@ -1,0 +1,421 @@
+<html>
+  <head>
+    <style>
+      .uber-button {
+        background-color: rgb(41, 39, 39);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;     
+        border: none;
+        cursor: pointer; 
+        transition: opacity 0.15s;    
+
+      }
+      .uber-button:hover {
+        opacity: 0.8;
+      }
+
+      .amazon-button {
+        background-color: rgb(255, 216, 20);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 38px;
+        padding-right: 38px; 
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+        
+      }
+
+      .amazon-button:hover {
+        background-color: rgb(223, 188, 14);
+      }
+
+    .github-button {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px; 
+      background-color: rgb(11, 199, 11);
+      border: none;
+      font-weight: bold;
+      color: azure;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: box-shadow 0.2s;
+
+    }
+
+    .github-button:hover {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .bootstrap-start {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px; 
+      background-color: rgb(83, 11, 199);
+      border: none;
+      font-weight: bold;
+      color: azure;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+
+    }
+
+    .bootstrap-start:hover {
+      background-color: rgb(73, 7, 179);;
+    }
+
+    .bootstrap-download {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px; 
+      background-color: white;
+      border-style: solid;
+      border-width: 1px;
+      font-weight: bold;
+      color: rgb(49, 48, 48);
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.2s,
+      color 0.2s;
+
+    }
+
+    .bootstrap-download:hover {
+      background-color: rgb(49, 48, 48);
+      color: white;
+    }
+
+
+    .linkedin-apply-button {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px; 
+      background-color: rgb(15, 127, 179);
+      border:none;
+      border-radius: 17px;
+      font-weight: bold;
+      font-size: 13px;
+      color: whitesmoke;
+      cursor: pointer;
+      transition: background-color 0.2s;
+
+    }
+
+    .linkedin-apply-button:hover {
+      background-color: rgb(9, 93, 133);
+    }
+
+    .linkedin-save-button {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px; 
+      background-color: whitesmoke;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 17px;
+      border-color: rgb(15, 127, 179);
+      font-weight: bold;
+      font-size: 13px;
+      color: rgb(15, 127, 179);
+      cursor: pointer;
+      transition: background-color 0.2s;
+
+    }
+
+    .linkedin-save-button:hover {
+      background-color: rgb(123, 198, 233);
+      border-width: 2px;
+    }
+
+    .amazon-blue {
+      color: rgb(133, 0, 0); 
+      cursor: pointer;
+    }
+
+    .amazon-blue:hover {
+      opacity: 0.8;
+    }
+
+    .nike {
+      font-size: 23px;
+      font-weight: bold;
+    }
+
+    .price {
+      color: rgb(11, 126, 11);
+      font-weight: bold;
+    }
+
+    .shipping {
+      font-weight: bold;
+    }
+
+    .add-to-cart-button {
+      background-color: rgb(255, 216, 20);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 38px;
+      padding-right: 38px; 
+      border: none;
+      border-radius: 18px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+
+    }
+
+    .add-to-cart-button:hover {
+      background-color: rgb(202, 170, 8);
+    }
+
+    .add-to-cart-button:active {
+      opacity: 0.7;
+    }
+
+    .buy-now-button {
+      background-color: rgb(248, 179, 51);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 38px;
+      padding-right: 38px; 
+      border: none;
+      border-radius: 18px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+
+    }
+
+    .buy-now-button:hover {
+      background-color: rgb(243, 167, 27);
+    }
+
+    .buy-now-button:active {
+      opacity: 0.7;
+    }
+
+    .back {
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 3px;
+      padding-right: 3px;
+      cursor: pointer;
+    }
+
+    .next {
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 3px;
+      padding-right: 3px;
+      cursor: pointer;
+    }
+
+    .shadow {
+      background-color: rgb(31, 182, 89);
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 13px;
+      padding-right: 13px; 
+      border: none;
+      cursor: pointer;
+    }
+
+    .shadow:active {
+      margin-top: 6px;
+      margin-left: 3px;
+    }
+
+    .stretch {
+      background-color: rgb(31, 182, 89);
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 13px;
+      padding-right: 13px; 
+      border: none;
+      cursor: pointer;
+      transition: padding-top 0.6s,
+      padding-bottom 0.6s, 
+      padding-left 0.6s,
+      padding-right 0.6s;
+    }
+
+    .stretch:hover {
+      padding-top: 13px;
+      padding-bottom: 13px;
+      padding-left: 22px;
+      padding-right: 22px;
+
+    }
+    .one {
+      background-color: rgb(31, 182, 89);
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 13px;
+      padding-right: 13px; 
+      border: none;
+      cursor: pointer;
+      transition:  
+      padding-left 0.15s,
+      padding-right 0.15s;
+   
+    }
+
+    .one:hover {
+      padding-left: 20px;
+      padding-right: 20px;
+
+    }
+    .two {
+      background-color: rgb(31, 182, 89);
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 13px;
+      padding-right: 13px; 
+      border: none;
+      cursor: pointer;
+      transition:  
+      padding-left 0.15s,
+      padding-right 0.15s;
+    }
+
+    .two:hover {
+      padding-left: 20px;
+      padding-right: 20px;
+
+    }
+    .three {
+      background-color: rgb(31, 182, 89);
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 13px;
+      padding-right: 13px; 
+      border: none;
+      cursor: pointer;
+      transition:  
+      padding-left 0.15s,
+      padding-right 0.15s;
+    }
+
+    .three:hover {
+      padding-left: 20px;
+      padding-right: 20px;
+
+    }
+
+   
+
+
+
+    </style>
+
+  </head>
+  <body>
+    <p>
+    <button class="uber-button">
+      Request now
+    </button>
+  </p>
+
+    <p>
+    <button class="amazon-button">
+      Add to cart
+    </button>
+  </p>
+
+
+    <p>
+    <button class="github-button">
+      Sign up
+    </button>
+  </p>
+
+    <p>
+    <button class="bootstrap-start">
+      Get started
+    </button>
+
+    <button class="bootstrap-download">
+      Download
+    </button>
+  </p>
+
+  <p>
+    <button class="linkedin-apply-button">
+      Apply on company website 
+    </button>
+    <button class="linkedin-save-button">
+      Save
+    </button>
+  </p>
+
+  <p class="amazon-blue">
+    <a href="https://www.amazon.com/">back to Amazon</a>
+  </p>
+
+  <p class="nike">
+    Nike Black Running Shoes
+  </p>
+
+  <p class="price">
+    $39 - in stock.
+  </p>
+
+  <p class="shipping">
+    Free delivery tomorrow
+  </p>
+
+  <button class="add-to-cart-button">
+    Add to cart
+  </button>
+
+  <button class="buy-now-button">
+    Buy now
+  </button>
+
+  <p>
+    <button class="back">Back</button>
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <button class="next">Next</button>
+
+  </p>
+
+  <p>
+    <button class="shadow">
+      Shadow
+    </button>
+  </p>
+  <p>
+    <button class="stretch">
+      Strech
+    </button>
+  </p>
+  <p>
+    <button class="one">
+      One 
+    </button>
+    <button class="two">
+      two
+    </button>
+    <button class="three">
+      three
+    </button>
+  </p>
+
+
+
+
+  </body>
+</html>

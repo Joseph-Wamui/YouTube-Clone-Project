@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Document</title>
+
+  <style>
+    .container {
+      display: inline-block;
+      position: relative;    
+    }
+
+    .shirt {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+
+    }
+
+    .off {
+      position: absolute;
+      top: 10px;
+      right: 0;
+      background-color: black;
+      color: whitesmoke;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 15px;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .cart {
+      width: 300px;
+      height: 70px;
+      background-color: rgba(255, 255, 255, 0.8);
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .button {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: solid;
+      border-width: 1px;
+      border-color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      cursor: pointer;
+      background-color: whitesmoke;
+
+
+    }
+
+
+  </style>
+
+</head>
+<body style="height: 3000px;">
+
+  <div class="container">
+    <img class="shirt" src="/ec2/shirt.jpg" alt="shirt">
+    <div class="off">20% OFF</div>
+    <div class="cart"> <button class="button">Add to Cart</button></div>
+  </div>
+
+  
+</body>
+</html>
